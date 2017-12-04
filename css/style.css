@@ -1,0 +1,65 @@
+@import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Open+Sans");
+body {
+  width: 100%; }
+
+.container {
+  background: #2c3e50;
+  color: white;
+  font-family: Montserrat Bold, sans-serif;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box; }
+  .container ul {
+    display: flex; }
+    .container ul li {
+      list-style-type: none;
+      font-family: Montserrat, sans-serif;
+      text-transform: uppercase;
+      padding: 0 20px;
+      font-size: 20px; }
+      .container ul li:hover {
+        color: #23b99a; }
+
+header {
+  background: #23b99a;
+  text-align: center;
+  padding: 130px 0; }
+  header h1 {
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 50px;
+    text-transform: uppercase; }
+  header h2 {
+    color: white solid;
+    font-family: Montserrat;
+    font-size: 30px;
+    text-transform: uppercase; }
+  header span {
+    font-size: 30px;
+    color: white; }
+
+.img {
+  font-size: 30px;
+  color: #2c3e50;
+  font-family: Montserrat, sans-serif;
+  text-transform: uppercase;
+  justify-content: space-between;
+  box-sizing: border-box; }
+  .img .imagenes {
+    width: 60px;
+    height: auto; }
+
+.galeriadeimagenes {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  list-style: none;
+  margin-top: auto;
+  margin-bottom: auto; }
+
+/*# sourceMappingURL=style.css.map */
